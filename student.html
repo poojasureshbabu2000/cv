@@ -1,0 +1,66 @@
+<form action= "contact.html" method="post" enctype="text/plain" >
+  <center>
+    <h1><u>STUDENT'S INFORMATION</u></h1>
+  </center>
+  <label><strong>Name:</strong></label>
+  <input type="text"><br>
+  <br>
+  <label><strong>Roll No:</strong></label>
+  <input type="text"><br>
+  <br>
+  <label><strong>Year:</strong></label>
+  <select>
+    <option value="1">1st year</option>
+    <option value="2">2nd year</option>
+    <option value="3">3rd year</option>
+    <option value="4">4th year</option>
+  </select>
+  <br>
+  <br>
+  <label for="email"><strong>E-Mail:</strong></label>
+
+<input type="email" id="email">
+<br>
+<br>
+  <label><strong>Department:</strong></label><br>
+  <input type="radio" id="CSE" name="dept" value="CSE">
+  <label for="CSE">CSE</label><br>
+  <input type="radio" id="ECE" name="dept" value="ECE">
+  <label for="ECE">ECE</label><br>
+  <input type="radio" id="MECH" name="dept" value="MECH">
+  <label for="MECH">MECH</label>
+  <br>
+  <br>
+
+  <label><strong>Address:</strong></label>
+  <br>
+  <textarea id="Address" name="Address"
+          rows="5" cols="33">
+</textarea>
+<br>
+<br>
+<label for="start"><strong>Date Of Birth:</strong></label>
+
+<input type="date" id="DOB" name="DOB"
+       value=""
+       min="1990-01-01" max="2030-12-31">
+       <br>
+       <br>
+
+<label><strong>Extra Course:</strong></label><br>
+<input type="checkbox" id="drawing" name="drawing"
+         >
+         <label for="drawing">drawing</label>
+         <br>
+  <input type="checkbox" id="painting" name="painting">
+  <label for="painting">painting</label>
+  <br>
+  <input type="checkbox" id="dancing" name="dancing">
+  <label for="dancing">dancing</label>
+  <br>
+  <input type="checkbox" id="singing" name="singing">
+<label for="singing">singing</label><br>
+<br>
+<input type="submit" value="Sumbit">
+ <input type="reset" value="Reset">
+</form>
